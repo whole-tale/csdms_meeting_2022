@@ -1,0 +1,11 @@
+name: landlab_tale
+channels:
+  - conda-forge
+dependencies:
+- landlab>=2.1
+- pip
+- pip:
+  - dask[array]
+  - holoviews
+  - mesa
+  - bmi-topography >= 0.5
